@@ -1,0 +1,45 @@
+# 依赖
+node_modules/
+
+# 浏览器数据（包含登录信息）
+browser-data/
+
+# 输出文件
+*.pdf
+feishu_exports/
+版本迭代_PDF导出/
+
+# URL列表（可能包含私密信息）
+urls.txt
+
+# 日志文件
+*.log
+
+# 调试文件
+debug-*.html
+page-*.html
+# 保留 debug-page.js 作为调试工具
+!debug-page.js
+
+# 清理脚本（开发临时文件）
+cleanup.sh
+safe-cleanup.sh
+
+# 临时文件
+*.tmp
+*.temp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.local

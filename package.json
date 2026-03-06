@@ -1,0 +1,27 @@
+{
+  "name": "feishu-pdf-exporter",
+  "version": "2.0.0",
+  "description": "通用的飞书知识库文档批量导出工具",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "extract-script": "node index.js --extract-script",
+    "install-browsers": "playwright install chromium",
+    "legacy:extract": "node extract-urls.js",
+    "legacy:export": "node export.js",
+    "legacy:export-manual": "node export-manual.js"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "pdf",
+    "export",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

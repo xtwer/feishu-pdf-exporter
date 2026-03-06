@@ -1,0 +1,18 @@
+# 飞书文档URL列表示例
+# 复制此文件为 urls.txt 并替换为你的实际文档URL
+
+# 产品需求文档
+https://xxx.feishu.cn/wiki/xxxxxx1
+
+# 技术设计文档
+https://xxx.feishu.cn/wiki/xxxxxx2
+
+# 用户手册
+https://xxx.feishu.cn/wiki/xxxxxx3
+
+# 使用说明：
+# 1. 每行一个URL
+# 2. 以 # 开头的行会被忽略（可用作注释）
+# 3. 空行会被忽略
+# 4. URL中不要包含查询参数（? 之后的内容）
+# 5. 保存后运行: npm start urls.txt
